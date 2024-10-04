@@ -1,0 +1,37 @@
+/* footer */
+.footer-container {
+  color: white;
+  font-size: 1.3vw;
+  display: flex;
+  width: 100%;
+  flex-flow: row;
+  justify-content: flex-start;
+}
+
+.footer-container-icon-working-hour {
+  flex: 1 1 10%;
+  background-size: contain;
+  z-index: 3;
+  padding: 10px;
+  margin-top: 20px;
+
+}
+
+.footer-container-text-working-hour {
+  flex: 1 1 30%;
+  z-index: 3;
+
+}
+
+.footer-container-icon-contact-us {
+  background-size: contain;
+  flex: 1 1 10%;
+  z-index: 3;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.footer-container-text-contact-us {
+  flex: 1 1 30%;
+  z-index: 3;
+}
